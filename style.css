@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header*/
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: min(15vw,160px);
+}
+
+.header-links .right-links {
+    display: flex;
+    gap: 8px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: min(15vw,160px);
+}
+
+.header-content .left-content {
+    width: 320px;
+    flex: 0 1 auto;
+}
+
+.header-content .right-content {
+    width: 240px;
+    height: auto;
+    flex: 0 0 auto;
+}
+
+/*Info-bar*/
