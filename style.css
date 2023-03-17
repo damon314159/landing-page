@@ -67,3 +67,22 @@ header {
 .info-bar .card-holder .card img {
     height: 80px;
 }
+
+/*Quote-bar*/
+.quote-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.quote-bar .quote,
+.quote-bar .attribution {
+    width: 320px;
+    flex: 0 1 auto;
+    margin-block: 0px;
+}
+
+.quote-bar .attribution {
+    text-align: right;
+}
